@@ -5,5 +5,3 @@ WORKDIR /app
 # Copy the rest of the app
 COPY . .
 
-# Set default command
-CMD ["cat", "README.md"]
